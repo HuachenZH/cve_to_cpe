@@ -7,6 +7,9 @@
 
 
 
+## library stuffs
+- for tqdm in ipynb: pip install ipywidgets
+
 ## Encountered
 - error while importing flair: "ImportError: cannot import name 'triu' from 'scipy.linalg'"
   - these two github issue explain the issue:
@@ -15,3 +18,6 @@
   - workaround: scipy version should be inferior to 1.11.0 (included)
 
 
+
+to resume:
+make the corpus work and test training
